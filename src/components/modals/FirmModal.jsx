@@ -20,7 +20,9 @@ export default function FirmModal({ open, handleClose, info, setInfo }) {
     setInfo({ ...info, [name]: value })
   }
 
+
   const handleSubmit = (e) => {
+    
     e.preventDefault()
     if (info.id) {
       putStockData("firms", info)
