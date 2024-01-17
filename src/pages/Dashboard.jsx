@@ -15,7 +15,7 @@ import useAuthCall from "../hooks/useAuthCall"
 import { Outlet } from "react-router-dom"
 import { blueGrey } from "@mui/material/colors"
 
-const drawerWidth = 200
+ const drawerWidth = 200
 
 function Dashboard(props) {
   const { currentUser } = useSelector((state) => state.auth)

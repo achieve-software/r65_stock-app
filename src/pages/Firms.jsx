@@ -30,6 +30,9 @@ const Firms = () => {
   //   }
   // }
 
+
+
+  
   const { getStockData } = useStockCall()
   const { firms } = useSelector((state) => state.stock)
   const [open, setOpen] = useState(false)
